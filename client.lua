@@ -6,7 +6,7 @@ Citizen.CreateThread(function()
     	WriteCoords("~y~X~s~: " .. tostring(pos.x), 0.015, 0.67)
     	WriteCoords("~y~Y~s~: " .. tostring(pos.y), 0.015, 0.695)
     	WriteCoords("~y~Z~s~: " .. tostring(pos.z), 0.015, 0.72) 
-    	WriteCoords("~y~Z~s~: " .. tostring(pos.z) - 0.9 .. " / ~y~På marken", 0.015, 0.745)
+    	WriteCoords("~y~Z~s~: " .. tostring(pos.z) - 0.9 .. " / ~y~Ground height", 0.015, 0.745)
     	WriteCoords("~y~H~s~: " .. tostring(heading), 0.015, 0.77)
     end
 end)
